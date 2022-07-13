@@ -245,6 +245,7 @@ body {
     }
     .container2 {
         flex-direction: column;
+        gap: 25px;
     }
     .ireland-links {
         margin-right: 0%;
@@ -275,6 +276,9 @@ body {
     }
     .container1 {
         flex-direction: column;
+    }
+    .container2 {
+        gap: 25px;
     }
     .footer {
         column-gap: 40px;
