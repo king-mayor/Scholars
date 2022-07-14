@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-top {
+    width: 100%;
+    background-color: rgb(52, 52, 131);
+    height: 10px;
+    position: absolute;
+    display: block;
+    top: 0;
+}
+.logo img{
+    width: 120px;
+    height: 70px;
+}
+.logo {
+    display: flex;
+    margin-left: 21%;
+    margin-top: 20px;
+}
+body {
+    background-color: #f2f2f2;
+}
+.navbar ul li a {
+    text-decoration : none;
+    font-size: 0.7em;
+    margin-right: 20px;
+    color: white;
+}
+.navbar ul li a:hover {
+    color: rgb(204, 86, 86);
+}
+.navbar ul li {
+    list-style: none;
+    background-color: rgb(52, 52, 131);
+    padding-bottom: 5px;
+}
+.navbar ul {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.cont1  a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: grey;
+    margin-right: 10px;
+}
+.cont1 p a {
+    color:rgb(52, 52, 131);
+}
+.cont1 h2 {
+    font-size: 0.6em;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+.cont1 h1 {
+    font-size: 1em;
+    color:rgb(52, 52, 131);
+}
+.cont1 p {
+    font-size: 0.6em;
+    color:rgb(52, 52, 131);
+    margin-top: 15px;
+    line-height: 15px;
+    text-align: justify;
+}
+.cont2-x h3{
+    font-size: 0.85em;
+    color:rgb(206, 99, 28);
+}
+.cont2-x ul li {
+    list-style: none;
+}
+.cont2-x ul li a {
+    text-decoration: none;
+    font-size: 0.6em;
+    color: grey;
+}
+.contact-info h2 {
+    font-size: 0.8em;
+    color:rgb(52, 52, 131);
+}
+.contact-info p {
+    font-size: 0.6em;
+    color: grey;
+    line-height: 15px;
+    margin-top: 15px;
+}
+.contact-info a {
+    text-decoration: none;
+    color: grey;
+}
+.contact-info i {
+    color: rgb(71, 87, 233);
+    font-size: 30px;
+    margin-top: 15px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.sar-links h2 {
+    font-size: 0.8em;
+    color:rgb(52, 52, 131);
+}
+.sar-links a {
+    text-decoration: none;
+}
+.sar-links input {
+    width: 15%;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.7em;
+}
+.ireland-links a {
+    text-decoration: none;
+    color:rgb(52, 52, 131);
+    font-size: 0.6em;
+    padding-top: 15px;
+    line-height: 20px;
+}
+.ireland-links h3 {
+    font-size: 1.1em;
+    color: rgb(52, 52, 131);
+    margin-bottom: 15px;
+}
+.ireland-links ul li {
+    list-style: none;
+}
+.ireland-links ul li a {
+    font-size: 0.6em;
+    color:rgb(52, 52, 131);
+}
+.ireland-links {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 17%;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    column-gap: 35px;
+}
+.cont2 a{
+    text-decoration: none;
+}
+.cont2 input {
+    font-size: 0.65em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align:start;
+    margin-bottom: 15px;
+    background-color: rgb(206, 99, 28);
+    color: white;
+    border: 2px solid rgb(206, 99, 28);
+}
+.cont2 input:hover {
+    cursor: pointer;
+    background-color: rgb(134, 60, 10);
+    border: 2px solid rgb(134, 60, 10);
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    column-gap: 30px;
+    margin-right: 25%;
+}
+.sar-links input {
+    width: 130%;
+    color: white;
+    background-color: rgb(206, 99, 28);
+    border: 2px solid rgb(206, 99, 28);
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sar-links input:hover{
+    cursor: pointer;
+    background-color: rgb(134, 60, 10);
+    border: 2px solid rgb(134, 60, 10);
+}
+.footer h3 {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer ul li a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: white;
+}
+.footer ul li {
+    list-style: none;
+    font-size: 0.6em;
+    color: white;
+}
+.footer ul {
+    line-height: 15px;
+}
+.footer img {
+    height: 45px;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    margin-top: 50px;
+    background-color: rgb(5, 5, 73);
+}
+.post-footer ul li{
+    font-size: 0.8em;
+    color: grey;
+    list-style: none;
+}
+.post-footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+@media all and (max-width: 600px) {
+    .logo {
+        margin-left: 0%;
+    }
+    .navbar ul {
+        display: block;
+    }
+    .container1 {
+        flex-direction: column;
+    }
+    .cont2 {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .container2 {
+        flex-direction: column;
+    }
+    .ireland-links {
+        margin-right: 0%;
+    }
+    .footer img {
+        width: 150px;
+    }
+    .ireland-links {
+        width: 100%;
+    }
+}
+@media all and (max-width: 900px) {
+    .logo {
+        margin-left: 0%;
+    }
+    .navbar ul li a {
+        margin-right: 10px;
+        font-size: 0.6em;
+    }
+    .cont2 {
+        margin-top: 25px;
+    }
+    .cont2 input  {
+        width: 40%;
+    }
+    .container1 {
+        flex-direction: column;
+    }
+}
+@media all and (max-width: 1100px) {
+    .logo {
+        margin-left: 0%;
+    }
+    .container2 {
+        margin-right: 35%;
+    }
+    .ireland-links {
+        margin-right: 24%;
+    }
+}
+@media all and (max-width: 1250px) {
+    .logo {
+        margin-left: 0%;
+    }
+    .container2 {
+        margin-right: 30%;
+    }
+    .ireland-links {
+        margin-right: 24%;
+    }
+}
