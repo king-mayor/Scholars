@@ -289,21 +289,21 @@ body {
         margin-left: 0%;
     }
     .container1 {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .container1 p{
         text-align: justify;
     }
     .container2 {
-        margin-left: 20%;
+        margin-left: 10%;
     }
     .container2 {
-        margin-right: 35%;
+        margin-right: 20%;
     }
     .ireland-links {
-        margin-right: 24%;
-        margin-left: 20%;
+        margin-right: 10%;
+        margin-left: 10%;
     }
     .container2 {
         margin-right: 35%;
@@ -314,9 +314,9 @@ body {
         margin-left: 0%;
     }
     .container2 {
-        margin-right: 30%;
+        margin-right: 100%;
     }
     .ireland-links {
-        margin-right: 24%;
+        margin-right: 10%;
     }
 }
