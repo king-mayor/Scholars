@@ -288,11 +288,25 @@ body {
     .logo {
         margin-left: 0%;
     }
+    .container1 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .container1 p{
+        text-align: justify;
+    }
+    .container2 {
+        margin-left: 20%;
+    }
     .container2 {
         margin-right: 35%;
     }
     .ireland-links {
         margin-right: 24%;
+        margin-left: 20%;
+    }
+    .container2 {
+        margin-right: 35%;
     }
 }
 @media all and (max-width: 1250px) {
